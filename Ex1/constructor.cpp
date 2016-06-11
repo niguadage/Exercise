@@ -24,8 +24,8 @@ class Human
 	}
 	
 	void IntroduceSelf(){
-		cout <<"i.am "+Name <<"amd am ";
-		cout<<Age<<"years old"<<endl;
+		cout <<"i.am "+Name <<" and am ";
+		cout<<age<<" years old"<<endl;
 	}
 };
 
@@ -36,11 +36,11 @@ int main(){
 	FirstMan.SetAge(30);
 
 	Human FirstWoman;
-	FirstWomen.SetName("Eve");
-	FirstWomen.SetAge(28);
+	FirstWoman.SetName("Eve");
+	FirstWoman.SetAge(28);
 	
 	FirstMan.IntroduceSelf();
-	FirstWomen.IntroduceSelf();
+	FirstWoman.IntroduceSelf();
 }
 		
 	
