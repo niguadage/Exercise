@@ -8,3 +8,12 @@ int main() {
   }
   return 0;
 }
+
+
+int aaaa()
+{
+	return 0;
+}
+
+
+	
