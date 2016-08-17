@@ -7,7 +7,8 @@ int s[5]={1,2,3,4,5};
 int i;
 f=fopen("myFile.txt","w");
 for(i=0;i<5;i++)
-fprintf(f,"%c",s);
+fprintf(f,"%d\t",*(s+i));
+
 fclose(f);
 printf("%d",s[1]);
 return 0;
