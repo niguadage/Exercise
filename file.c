@@ -11,7 +11,7 @@ f=fopen("myFile.txt","w");
 for(j=0;j<5;j++)
 {
 for(i=0;i<5;i++){
-	s[i]=i;
+	s[i]=i+j;
 fprintf(f,"%d",*(s+i));
 }
 fprintf(f,"\n");
